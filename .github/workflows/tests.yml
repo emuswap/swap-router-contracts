@@ -37,5 +37,3 @@ jobs:
 
       - name: Run unit tests
         run: yarn test
-        env: # Or as an environment variable
-          ARCHIVE_RPC_URL: ${{ secrets.ARCHIVE_RPC_URL }}
